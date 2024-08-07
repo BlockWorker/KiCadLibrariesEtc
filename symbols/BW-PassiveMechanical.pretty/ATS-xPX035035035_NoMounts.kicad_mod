@@ -1,4 +1,4 @@
-(footprint "ATS-FPX035035035-90-C1-R0"
+(footprint "ATS-xPX035035035_NoMounts"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "ATS-FPX035035035-90-C1-R0"
+	(property "Value" "ATS-xPX035035035_NoMounts"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "ba6cc38b-9caa-4778-ad0d-eb95a6c9ff3e")
@@ -163,24 +163,26 @@
 		(layer "F.Fab")
 		(uuid "04774f0c-abc0-47c9-b241-22c03fafad50")
 	)
-	(pad "M" thru_hole circle
-		(at -20 20)
-		(size 4.316 4.316)
-		(drill 3.3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.1016)
-		(thermal_bridge_angle 0)
-		(uuid "f69fb665-f80b-410b-a31f-b9100e00ce69")
+	(fp_circle
+		(center -20 20)
+		(end -18.2 20)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2af69762-0084-459c-b30e-3e64070f1983")
 	)
-	(pad "M" thru_hole circle
-		(at 20 -20)
-		(size 4.316 4.316)
-		(drill 3.3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.1016)
-		(thermal_bridge_angle 0)
-		(uuid "610b5c7c-aed5-45a2-a25c-278c44063c18")
+	(fp_circle
+		(center 20 -20)
+		(end 21.8 -20)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "cf07a70f-3a9f-4e70-83b0-940fe15d74d7")
 	)
 )
