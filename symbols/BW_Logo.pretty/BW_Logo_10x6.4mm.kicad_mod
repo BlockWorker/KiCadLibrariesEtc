@@ -1,0 +1,161 @@
+(footprint "BW_Logo_10x6.4mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.5 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d78750ec-00bb-4a2e-a8ea-f2254a22230f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BW_Logo_10x6.4mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4336709-d8a0-405e-978a-15cb35995271")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14215574-4c92-4b72-bf62-237c77ff733b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71c6e69a-4d73-4998-99a0-0846b325a80b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39356471-0c7e-4754-b114-3c91f94f5964")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -4.6 3.6) (xy -5.4 2.8) (xy -5.4 -2.8) (xy -4.6 -3.6) (xy 4.6 -3.6) (xy 5.4 -2.8) (xy 5.4 2.8)
+			(xy 4.6 3.6)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "8f6e4377-dc0c-4ce8-a119-6ff37a93d69c")
+	)
+	(fp_poly
+		(pts
+			(xy -5 2.4) (xy -4.2 3.2) (xy 4.2 3.2) (xy 5 2.4) (xy 5 -2.4) (xy 4.2 -3.2) (xy -4.2 -3.2) (xy -5 -2.4)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Mask")
+		(uuid "1d6d9432-5cc8-4267-950c-e6f67d71ee3f")
+	)
+	(fp_poly
+		(pts
+			(xy -4.2 -1.6) (xy -4.2 -2.4) (xy -1 -2.4) (xy -0.6 -2) (xy -0.6 -0.4) (xy -1.8 -0.4) (xy -1.4 -0.8)
+			(xy -1.4 -1.2) (xy -1.8 -1.6)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "7bd4d760-3c4c-4126-a082-7946982a131a")
+	)
+	(fp_poly
+		(pts
+			(xy -4.2 2.4) (xy -1 2.4) (xy -0.6 2) (xy -0.6 0.4) (xy -1 0) (xy -0.6 -0.4) (xy -3.4 -0.4) (xy -3.4 0.4)
+			(xy -1.8 0.4) (xy -1.4 0.8) (xy -1.4 1.2) (xy -1.8 1.6) (xy -3.4 1.6) (xy -3.4 -1.6) (xy -4.2 -1.6)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "8828d28d-0404-4c91-b8b5-38b57896df38")
+	)
+	(fp_poly
+		(pts
+			(xy 0.2 -2) (xy 0.6 -2.4) (xy 1 -2.4) (xy 1 0.8) (xy 1.4 1.2) (xy 1.8 0.8) (xy 1.8 -2) (xy 2.2 -2.4)
+			(xy 2.6 -2) (xy 2.6 0.8) (xy 3 1.2) (xy 3.4 0.8) (xy 3.4 -2.4) (xy 3.8 -2.4) (xy 4.2 -2) (xy 4.2 2)
+			(xy 3.8 2.4) (xy 2.6 2.4) (xy 2.2 2) (xy 1.8 2.4) (xy 0.6 2.4) (xy 0.2 2)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "f5049a1b-6919-48d3-9d03-0019ff6fad13")
+	)
+	(fp_text user "©2024 BlockWorker"
+		(at 0 4.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "66d9e4af-b4f4-4d08-93b7-f3952c5be759")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "blockworker.de"
+		(at 0 6.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8d7eb0db-5e4c-47f2-84ee-8b609ecb3e46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)

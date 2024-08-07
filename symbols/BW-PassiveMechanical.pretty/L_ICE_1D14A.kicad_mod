@@ -1,0 +1,128 @@
+(footprint "L_ICE_1D14A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Class D Audio Inductor")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "f05be357-fae7-43e8-a2de-e54421e50371")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_ICE_1D14A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "84931944-dc05-44ed-adc4-8ae18529ba8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ea38f09-7304-467b-bb21-723ab45657a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efdb3446-920a-42e5-8f8c-fc4209185062")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1390d38d-e900-469d-9890-434e71a13f33")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -7.5 -5.25)
+		(end 7.5 5.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e9eb1c75-bbfb-4bce-b2e7-12162c9f8201")
+	)
+	(fp_poly
+		(pts
+			(xy -6.9 -4.7) (xy -6.9 -4.2) (xy -6.4 -4.7)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "c81d9b5e-75bb-4df6-a4f0-3839a7c277e2")
+	)
+	(fp_rect
+		(start -7.6 -5.35)
+		(end 7.6 5.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "99183409-424d-4603-9dd1-a9a612fb5eb5")
+	)
+	(pad "1" thru_hole circle
+		(at -4.6 -2.65)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
+		(uuid "cb7af943-15c2-4898-8624-f94e4f017981")
+	)
+	(pad "2" thru_hole circle
+		(at 4.6 2.65)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
+		(uuid "51ea46c0-fd5d-4192-b5a6-e0075fdf9a45")
+	)
+	(model "E:/Users/Alex/Documents/KiCad/8.0/3dmodels/1D14A_Assembly.stp"
+		(offset
+			(xyz -4.1 5.9 22.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
+		)
+	)
+)
