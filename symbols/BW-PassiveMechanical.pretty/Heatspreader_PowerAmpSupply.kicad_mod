@@ -1,0 +1,236 @@
+(footprint "Heatspreader_PowerAmpSupply"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3029f69e-8ecf-42e9-9d0a-5867a856dfff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Heatspreader_PowerAmpSupply"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "94c6e67c-db56-4ad7-99c2-2a96090c9c41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77179093-abb4-4377-9c8d-6bf2269565f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ef98a4d-91d8-48be-88a5-3763fd0a4909")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b044a9a4-7946-4cb3-a7d0-9844e67237b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only)
+	(fp_circle
+		(center -6.95 -8.05)
+		(end -9.55 -8.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "6fd1740d-9f09-4075-a50a-fa7bed26f0cf")
+	)
+	(fp_circle
+		(center 6.95 8.05)
+		(end 9.55 8.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "d24c3072-3e0b-480e-ad71-c9b44dd7c4fc")
+	)
+	(fp_circle
+		(center -6.95 -8.05)
+		(end -4.45 -8.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.Fab")
+		(uuid "ebe345f8-6a06-4b97-a53c-046d5c2f2e7d")
+	)
+	(fp_circle
+		(center 6.95 8.05)
+		(end 9.45 8.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.Fab")
+		(uuid "42706e49-0abe-45ab-a3dd-69aca04055c0")
+	)
+	(fp_line
+		(start -9.45 -8.05)
+		(end -9.45 8.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "37b7ec5a-d2e7-4da0-ba5b-102213e868fc")
+	)
+	(fp_line
+		(start -6.95 10.55)
+		(end 6.95 10.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cce6c6bb-5a57-4db8-b8ea-5c55113ee54c")
+	)
+	(fp_line
+		(start 6.95 -10.55)
+		(end -6.95 -10.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "144024a0-6418-4b49-bfbe-38a369275d5e")
+	)
+	(fp_line
+		(start 9.45 8.05)
+		(end 9.45 -8.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2e7c9704-e3c4-4004-b9c3-18944e7001b8")
+	)
+	(fp_arc
+		(start -9.45 -8.05)
+		(mid -8.717767 -9.817767)
+		(end -6.95 -10.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "98c3883b-5c5e-44d3-83a7-322d9b0ee1d4")
+	)
+	(fp_arc
+		(start -6.95 10.55)
+		(mid -8.717767 9.817767)
+		(end -9.45 8.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "98f4a1c2-84d7-45f1-b575-54a84b88f6a6")
+	)
+	(fp_arc
+		(start 6.95 -10.55)
+		(mid 8.717767 -9.817767)
+		(end 9.45 -8.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "359b042e-6b8b-49fb-810c-76d3d2dc885c")
+	)
+	(fp_arc
+		(start 9.45 8.05)
+		(mid 8.717767 9.817767)
+		(end 6.95 10.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a61a5e1f-7921-448f-9777-ec0f8c38afb4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2cc8bc3c-6ecd-4a0b-ab62-268046a6f37c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -6.95 -8.05)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Mask")
+		(uuid "07391eda-9902-4fa3-9b50-937bd033571c")
+	)
+	(pad "" np_thru_hole circle
+		(at 6.95 8.05)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Mask")
+		(uuid "320d9cf3-848f-42e6-9edd-72a0b6b860ed")
+	)
+	(model "E:/Users/Alex/Documents/KiCad/8.0/3dmodels/PowerAmpSupply heatspreader v5.step"
+		(offset
+			(xyz 0 0 0.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
