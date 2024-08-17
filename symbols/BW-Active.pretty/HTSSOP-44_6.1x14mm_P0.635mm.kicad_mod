@@ -460,7 +460,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "a8a74d9a-10b2-4bf2-9104-e1059865e460")
 	)
-	(model "E:/Users/Alex/Documents/KiCad/8.0/3dmodels/DDV0044D.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/DDV0044D.stp"
 		(offset
 			(xyz 0 0 0)
 		)

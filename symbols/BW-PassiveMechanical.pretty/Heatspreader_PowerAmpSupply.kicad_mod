@@ -222,7 +222,7 @@
 		(layers "*.Mask")
 		(uuid "320d9cf3-848f-42e6-9edd-72a0b6b860ed")
 	)
-	(model "E:/Users/Alex/Documents/KiCad/8.0/3dmodels/PowerAmpSupply heatspreader v5.step"
+	(model "${KICAD_USER_3DMODEL_DIR}/PowerAmpSupply heatspreader v5.step"
 		(offset
 			(xyz 0 0 0.9)
 		)

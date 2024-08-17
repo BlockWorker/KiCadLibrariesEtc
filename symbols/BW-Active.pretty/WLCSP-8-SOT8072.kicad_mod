@@ -207,7 +207,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "b991ca26-ea83-4f86-aa04-ff90c88f44f9")
 	)
-	(model "E:/Users/Alex/Documents/KiCad/8.0/3dmodels/WLCSP8-SOT8072.step"
+	(model "${KICAD_USER_3DMODEL_DIR}/WLCSP8-SOT8072.step"
 		(offset
 			(xyz 0 0 0.1)
 		)

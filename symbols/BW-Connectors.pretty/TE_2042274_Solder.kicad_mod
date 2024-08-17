@@ -251,7 +251,7 @@
 		(remove_unused_layers no)
 		(uuid "fdf76dfd-40ab-4d81-9a12-fb6df03e4b3c")
 	)
-	(model "E:/Users/Alex/Documents/KiCad/8.0/3dmodels/c-2042274-2-b-3d.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/c-2042274-2-b-3d.stp"
 		(offset
 			(xyz 0 0 11.1)
 		)

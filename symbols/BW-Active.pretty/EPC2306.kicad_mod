@@ -478,7 +478,7 @@
 		)
 		(uuid "6e66e950-dfef-43a5-a37e-a015038b8887")
 	)
-	(model "E:/Users/Alex/Documents/KiCad/8.0/3dmodels/D0606H.step"
+	(model "${KICAD_USER_3DMODEL_DIR}/D0606H.step"
 		(offset
 			(xyz 0 0 -0.05)
 		)

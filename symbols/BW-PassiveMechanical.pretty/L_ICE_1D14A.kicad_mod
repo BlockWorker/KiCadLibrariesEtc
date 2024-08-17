@@ -114,7 +114,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "51ea46c0-fd5d-4192-b5a6-e0075fdf9a45")
 	)
-	(model "E:/Users/Alex/Documents/KiCad/8.0/3dmodels/1D14A_Assembly.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/1D14A_Assembly.stp"
 		(offset
 			(xyz -4.1 5.9 22.5)
 		)
