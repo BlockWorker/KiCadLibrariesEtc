@@ -68,7 +68,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom)
 	(fp_poly
 		(pts
 			(xy -5.75 -4.5) (xy -6.75 -3.5) (xy -6.75 3.5) (xy -5.75 4.5) (xy 5.75 4.5) (xy 6.75 3.5) (xy 6.75 -3.5)

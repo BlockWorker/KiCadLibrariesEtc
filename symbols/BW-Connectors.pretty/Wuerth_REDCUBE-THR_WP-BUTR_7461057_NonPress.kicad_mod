@@ -1,0 +1,233 @@
+(footprint "Wuerth_REDCUBE-THR_WP-BUTR_7461057_NonPress"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74655095.pdf)")
+	(tags "screw terminal thread redcube thr power connector")
+	(property "Reference" "REF**"
+		(at 0 -4.7 0)
+		(layer "F.SilkS")
+		(uuid "f3d52983-f18a-4601-bc52-208d2931a10f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Wuerth_REDCUBE-THR_WP-BUTR_7461057_NonPress"
+		(at 0 4.7 0)
+		(layer "F.Fab")
+		(uuid "2a622f9b-ba99-4eae-a938-b6dcc76fa281")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32df7138-3fed-4693-8fa8-a872a89d7115")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "375a16a6-54ca-4ebd-86d1-088f55de046d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "039a1d7e-6177-4025-ba6f-476f3c4755b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.6 -1.6)
+		(end -3.6 1.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "90571c0f-f432-4ec4-8a01-70096b4c7df6")
+	)
+	(fp_line
+		(start -1.6 -3.6)
+		(end -0.95 -3.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7e3a3280-4a28-4e2d-b27f-55445a4c02b5")
+	)
+	(fp_line
+		(start -1.6 3.6)
+		(end -0.95 3.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f6db0e59-ba48-49dc-84d9-ad1f32ce28dc")
+	)
+	(fp_line
+		(start 0.95 -3.6)
+		(end 1.6 -3.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ed39027c-a418-49f2-a3c6-d60b3edc8017")
+	)
+	(fp_line
+		(start 0.95 3.6)
+		(end 1.6 3.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cbe0d9e1-8fff-4611-bff5-431f6cb9c5de")
+	)
+	(fp_line
+		(start 3.6 -1.6)
+		(end 3.6 1.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "080f21f6-b5aa-45cc-9294-e033da0bf6d3")
+	)
+	(fp_rect
+		(start -3.9 -3.9)
+		(end 3.9 3.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e2cc1ae8-7687-4e3b-bee0-c61b07bdc517")
+	)
+	(fp_rect
+		(start -3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "98cf5f3a-532e-4e1d-b916-2d45d2adcc82")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6d041d83-d3bf-430b-9e77-934774a6b2f4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8721044a-e3aa-41cc-96c0-eefcd41db25d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 -2.54)
+		(size 2.3 2.3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "29073fd3-5ffc-4451-b204-a25b9fd3b855")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 2.54)
+		(size 2.3 2.3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fbcc38de-881f-4d0d-9e4c-907857e42b9a")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.54)
+		(size 2.3 2.3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5f3b6bc1-002a-40df-a4fa-ab2c4851161b")
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.54)
+		(size 2.3 2.3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ab44b869-011a-44a6-b21a-e4a29620869a")
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 -2.54)
+		(size 2.3 2.3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f74781d0-c105-4a9a-a20f-97b401bb8301")
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 2.54)
+		(size 2.3 2.3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4434ff93-ad32-491e-b3cb-39c187df2002")
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/7461057 (rev1).stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

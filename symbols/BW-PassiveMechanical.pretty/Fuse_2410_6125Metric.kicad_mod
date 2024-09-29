@@ -1,0 +1,147 @@
+(footprint "Fuse_2410_6125Metric"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "fuse")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "693ffb9e-05da-4900-8b0c-d3e723391169")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_2410_6125Metric"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(uuid "544d80ba-5d9b-4b6a-bd17-e484fc6171ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5d1319b-4f4a-4c8a-817d-65cd3be8fa77")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5fdcb48-152c-4f32-a77d-a3a0925f55a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a75cb808-dc4d-4e34-a32a-0c9c9b4c7d2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 -1.45)
+		(end 1.3 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "351f49ca-79d3-4161-8d76-47bcfca9c4a1")
+	)
+	(fp_line
+		(start -1.3 1.45)
+		(end 1.3 1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8633147d-836d-4093-a71e-91bb95941930")
+	)
+	(fp_rect
+		(start -4.25 -1.8)
+		(end 4.25 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "08ed0ac9-12bf-4d26-80c8-be87d466f39b")
+	)
+	(fp_rect
+		(start -3.1 -1.3)
+		(end 3.1 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "5322fa22-9404-49a2-bbc7-75fc5181f575")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "143d76a8-c018-46d7-a3d0-471ca85f9523")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.75 0)
+		(size 2.5 3.18)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.185185)
+		(uuid "a79b9dc2-2162-43ae-87dd-d2185ecf6468")
+	)
+	(pad "2" smd roundrect
+		(at 2.75 0)
+		(size 2.5 3.18)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.185185)
+		(uuid "d5dc579d-cc36-471f-87c9-e7e9571ab1dc")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_2010_5025Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
