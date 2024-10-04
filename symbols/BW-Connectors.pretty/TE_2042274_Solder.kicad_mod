@@ -6,7 +6,6 @@
 	(descr "2-pin vertical power connector, 40A, optional detection, solder mount")
 	(property "Reference" "REF**"
 		(at 0.425 -9.775 0)
-		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "591ab5b7-3201-43cd-8c84-17f0c5571f13")
 		(effects
@@ -18,7 +17,6 @@
 	)
 	(property "Value" "TE_2042274_Solder"
 		(at 0.425 10.725 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "c1b9d275-fb59-4135-b831-91f4d6c99626")
 		(effects
@@ -121,7 +119,6 @@
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "695a02a7-1a5b-40a0-a877-1968d2e529a5")
 		(effects

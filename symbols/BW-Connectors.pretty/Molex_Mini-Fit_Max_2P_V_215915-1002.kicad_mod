@@ -5,7 +5,6 @@
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -5.1 0)
-		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6f9234e3-44ac-41f4-9b4f-2f98ea0ae071")
 		(effects
@@ -17,7 +16,6 @@
 	)
 	(property "Value" "Molex_Mini-Fit_Max_2P_V_215915-1002"
 		(at 0 4.3 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a36f0d25-9895-4c2b-8b9d-83fddffcae2c")
 		(effects

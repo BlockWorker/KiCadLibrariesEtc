@@ -5,7 +5,6 @@
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -5.2 0)
-		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "633ce8a8-b1cf-4629-b192-89ffe2efdfb6")
 		(effects
@@ -17,7 +16,6 @@
 	)
 	(property "Value" "L_Eaton_EXL1V0703"
 		(at 0 5.2 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5553aea8-524e-4f8b-88c0-f9d2fd5c3e1f")
 		(effects
@@ -151,7 +149,6 @@
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "17d18cd1-9187-4499-b607-db8e9c508a87")
 		(effects
