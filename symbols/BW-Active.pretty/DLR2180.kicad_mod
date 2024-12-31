@@ -1,0 +1,177 @@
+(footprint "DLR2180"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 7.8 0)
+		(layer "F.SilkS")
+		(uuid "2d678e22-e610-4992-aeb0-5847824edc19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DLR2180"
+		(at 0 9.3 0)
+		(layer "F.Fab")
+		(uuid "5bdc091b-7c8e-4da7-b0fb-0b5828dd81f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ba91025-4162-4636-8e19-0df0efe6e51c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4901448c-1dfb-404f-8b77-2ea6c3c87999")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TOSLINK Receiver, 3-5V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d28bbce-643d-4faa-9071-2d40d2fe02a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.9 6.45)
+		(end -5.9 -3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0ef4935d-de33-4c19-828c-91878139e169")
+	)
+	(fp_line
+		(start -5.9 6.45)
+		(end 5.9 6.45)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "62850f3a-50a4-4886-b542-17c527d44fae")
+	)
+	(fp_line
+		(start 5.9 6.45)
+		(end 5.9 -3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f547be8-a79c-4aa2-bc6e-6d8768fdf4ba")
+	)
+	(fp_rect
+		(start -6.5 -7.6)
+		(end 6.5 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8ef528c6-675f-4047-aafe-5a2eaca2ca3a")
+	)
+	(fp_rect
+		(start -5.75 -4.7)
+		(end 5.75 6.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "fa69dbfb-150c-42d1-b6a2-a2072237d1c4")
+	)
+	(fp_rect
+		(start -4.85 -7)
+		(end 4.85 -4.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "148c0c4b-ab0d-4bdf-a920-d17a68e641a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6436b560-6c2a-42ee-8212-69548aede4c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3.81 0)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "81f09591-1f39-4b4d-87a1-3783ba0396a3")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.81 0)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "efa3c5fc-cdf4-46c9-8ac6-f09e02153572")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 3.75)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "db4fd46e-ff95-4fce-9dfc-9fc07252e149")
+	)
+	(pad "2" thru_hole circle
+		(at 0 3.75)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ac2782c4-1414-409b-8018-fc8ba8f5a156")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 3.75)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "18ec897b-bc51-4c65-bc31-1c74b3564730")
+	)
+)
