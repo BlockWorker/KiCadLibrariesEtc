@@ -132,7 +132,7 @@
 		(layer "F.Mask")
 		(uuid "a4d32ad6-f271-4971-8be6-ea4fa8f6ba3b")
 	)
-	(fp_text user "©2024 BlockWorker"
+	(fp_text user "©2025 BlockWorker"
 		(at 0 11 0)
 		(unlocked yes)
 		(layer "F.SilkS")
