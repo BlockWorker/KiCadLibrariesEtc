@@ -323,4 +323,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "d9b844cb-9777-43a2-8d6b-edbceec154ac")
 	)
+	(model "${KICAD_USER_3DMODEL_DIR}/10114828-xxx03lfc.stp"
+		(offset
+			(xyz 0 -1.85 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
 )
