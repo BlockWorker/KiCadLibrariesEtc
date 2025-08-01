@@ -153,13 +153,13 @@
 		(size 0.6 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
 		(uuid "4b43d3a5-5f85-4dbe-baf3-6188c7bac235")
 	)
 	(pad "2" smd custom
 		(at -0.5 0)
 		(size 0.25 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -189,7 +189,6 @@
 		(size 0.6 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
 		(uuid "eea05087-4f90-41ff-a1de-4c364e12bc0f")
 	)
 	(pad "4" smd roundrect
@@ -197,7 +196,6 @@
 		(size 0.6 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
 		(uuid "14db3569-a523-4e41-88e6-697dcf4194a6")
 	)
 	(pad "5" smd roundrect
@@ -205,7 +203,6 @@
 		(size 0.6 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
 		(uuid "c0c9615f-b5cb-44b2-93c1-b378d081efaf")
 	)
 	(pad "6" smd roundrect
@@ -213,7 +210,6 @@
 		(size 0.6 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
 		(uuid "da2b2b22-84f4-4615-b430-9eb43347c9e6")
 	)
 	(embedded_fonts no)

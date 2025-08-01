@@ -239,7 +239,6 @@
 		(size 1.795 1.2)
 		(layers "F.Cu")
 		(roundrect_rratio 0.1)
-		(thermal_bridge_angle 45)
 		(uuid "44f8daed-6279-4bed-95bc-fd8fa38a3461")
 	)
 	(pad "2" smd roundrect
@@ -247,7 +246,6 @@
 		(size 0.495 1.2)
 		(layers "F.Cu")
 		(roundrect_rratio 0.1)
-		(thermal_bridge_angle 45)
 		(uuid "29f4145c-2e03-43c8-bc04-82f9a9ac768b")
 	)
 	(pad "3" smd roundrect
@@ -255,7 +253,6 @@
 		(size 2.49 2.66)
 		(layers "F.Cu")
 		(roundrect_rratio 0.05)
-		(thermal_bridge_angle 45)
 		(uuid "f7e590ae-0673-460b-a5d5-020a6c3d7985")
 	)
 	(embedded_fonts no)
