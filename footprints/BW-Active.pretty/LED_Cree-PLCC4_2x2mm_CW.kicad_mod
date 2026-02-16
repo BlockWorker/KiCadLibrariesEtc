@@ -1,0 +1,219 @@
+(footprint "LED_Cree-PLCC4_2x2mm_CW"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2.0mm x 2.0mm PLCC4 RGB LED, https://assets.cree-led.com/a/ds/h/HB-CLMVC-FKA.pdf")
+	(tags "LED Cree PLCC-4 2020 CLMVB-FKA CLMVC-FKA")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(layer "F.SilkS")
+		(uuid "74bdee78-ae18-4ccd-8f0b-24ea41c4d096")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Cree-PLCC4_2x2mm_CW"
+		(at 0 2.25 0)
+		(layer "F.Fab")
+		(uuid "35ab9dbe-371a-4556-b3da-c6b9b095a208")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "670edff2-0d77-4735-9ca3-7ada9a278295")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb7c7945-7753-4f0d-8dba-57ebaeaaf64a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -1.51 -0.91) (xy -1.51 1.21) (xy 1.51 1.21) (xy 1.51 -1.21) (xy -1.21 -1.21)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0c1785b5-fd29-4989-8382-e7f4b4a7ee8d")
+	)
+	(fp_line
+		(start -1.5 -1.25)
+		(end -1.5 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6cd268a9-d59a-4f20-b8a1-65610bbe73a2")
+	)
+	(fp_line
+		(start -1.5 1.25)
+		(end 1.5 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47e37a18-fdae-42ef-9e44-09dbc212c1f2")
+	)
+	(fp_line
+		(start 1.5 -1.25)
+		(end -1.5 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a881adcd-20a0-4ae2-82ef-14c7476f66d4")
+	)
+	(fp_line
+		(start 1.5 1.25)
+		(end 1.5 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bed40014-dd8d-4085-beff-752aebf4a804")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7027f7ee-e49e-4f77-b84c-c91270e05f42")
+	)
+	(fp_line
+		(start -1 1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4875393e-8043-4b91-8caa-ea1c1e8a4b74")
+	)
+	(fp_line
+		(start 0 -1)
+		(end -1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d65f9338-5d8a-4786-8fb3-384b4f1a6cb0")
+	)
+	(fp_line
+		(start 1 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "273cfe40-6725-4148-aca0-7e37edac6691")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb3c0809-3af2-4eda-9d6f-aa007840fcb4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6f4000ed-8fc3-461e-8c78-77117da6b672")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ff01fb2b-f16b-416a-b391-bf39ba31ac48")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.75 -0.55)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "389ab8d0-2503-4582-82b0-c261ed0b7ae6")
+	)
+	(pad "2" smd roundrect
+		(at 0.75 -0.55)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "47fa53ad-dc0e-4145-80ea-f3eb018b0d8d")
+	)
+	(pad "3" smd roundrect
+		(at 0.75 0.55)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2cfc55ba-72ef-4e0c-a60b-227a7a535200")
+	)
+	(pad "4" smd roundrect
+		(at -0.75 0.55)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "77bc4649-e842-4cd3-b5eb-23888d1db951")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/LMVC.stp"
+		(offset
+			(xyz 0 0 0.875)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
