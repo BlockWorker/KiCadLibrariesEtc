@@ -4765,7 +4765,7 @@
 			(pin passive line
 				(at -10.16 21.59 0)
 				(length 2.54)
-				(name "ML3-"
+				(name "ML0+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4783,7 +4783,7 @@
 			(pin passive line
 				(at -10.16 19.05 0)
 				(length 2.54)
-				(name "ML3+"
+				(name "ML0-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4801,7 +4801,7 @@
 			(pin passive line
 				(at -10.16 16.51 0)
 				(length 2.54)
-				(name "ML2-"
+				(name "ML1+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4819,7 +4819,7 @@
 			(pin passive line
 				(at -10.16 13.97 0)
 				(length 2.54)
-				(name "ML2+"
+				(name "ML1-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4837,7 +4837,7 @@
 			(pin passive line
 				(at -10.16 11.43 0)
 				(length 2.54)
-				(name "ML1-"
+				(name "ML2+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4855,7 +4855,7 @@
 			(pin passive line
 				(at -10.16 8.89 0)
 				(length 2.54)
-				(name "ML1+"
+				(name "ML2-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4873,7 +4873,7 @@
 			(pin passive line
 				(at -10.16 6.35 0)
 				(length 2.54)
-				(name "ML0-"
+				(name "ML3+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4891,7 +4891,7 @@
 			(pin passive line
 				(at -10.16 3.81 0)
 				(length 2.54)
-				(name "ML0+"
+				(name "ML3-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4999,7 +4999,7 @@
 			(pin power_in line
 				(at -5.08 -27.94 90)
 				(length 2.54)
-				(name "ML3S"
+				(name "ML0S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5017,7 +5017,7 @@
 			(pin power_in line
 				(at -2.54 -27.94 90)
 				(length 2.54)
-				(name "ML2S"
+				(name "ML1S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5035,7 +5035,7 @@
 			(pin power_in line
 				(at 0 -27.94 90)
 				(length 2.54)
-				(name "ML1S"
+				(name "ML2S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5071,7 +5071,7 @@
 			(pin power_in line
 				(at 2.54 -27.94 90)
 				(length 2.54)
-				(name "ML0S"
+				(name "ML3S"
 					(effects
 						(font
 							(size 1.27 1.27)
