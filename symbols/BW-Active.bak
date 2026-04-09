@@ -16207,7 +16207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BW-Active:OnSemi_UDFN-18-3EP_1.5x5.5mm_P0.5mm_EP0.5x0.6mm"
+		(property "Footprint" "BW_Active:OnSemi_UDFN-18-3EP_1.5x5.5mm_P0.5mm_EP0.5x0.6mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48576,7 +48576,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at -8.636 -3.302 0)
+			(at -4.318 -3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48584,14 +48584,14 @@
 			)
 		)
 		(property "Value" "PUSB3AB4"
-			(at 9.144 -3.302 0)
+			(at 7.62 -3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "BW-Active:NXP_DFN2510A-10_1x2.5mm_P0.5mm"
+		(property "Footprint" "BW_Active:NXP_DFN2510A-10_1x2.5mm_P0.5mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56373,7 +56373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BW-Active:Texas_RNQ0040A_WQFN-40-1EP_6x4mm_P0.4mm_EP4.7x2.7mm"
+		(property "Footprint" "BW_Active:Texas_RNQ0040A_WQFN-40-1EP_6x4mm_P0.4mm_EP4.7x2.7mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57199,7 +57199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BW-Active:Texas_RNQ0040A_WQFN-40-1EP_6x4mm_P0.4mm_EP4.7x2.7mm"
+		(property "Footprint" "BW_Active:Texas_RNQ0040A_WQFN-40-1EP_6x4mm_P0.4mm_EP4.7x2.7mm"
 			(at 0 0 0)
 			(effects
 				(font

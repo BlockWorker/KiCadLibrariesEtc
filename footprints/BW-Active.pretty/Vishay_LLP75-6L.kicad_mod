@@ -5,7 +5,6 @@
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.9 0)
-		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6e5b2d00-94f2-4eb1-a1eb-2aa625d2a2c8")
 		(effects
@@ -17,7 +16,6 @@
 	)
 	(property "Value" "Vishay_LLP75-6L"
 		(at 0 2 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5e99b8a7-1a0c-4b69-9668-3628b4a623bf")
 		(effects
@@ -138,7 +136,6 @@
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "1f4e7bcc-1072-4ada-840e-04f567a8c298")
 		(effects

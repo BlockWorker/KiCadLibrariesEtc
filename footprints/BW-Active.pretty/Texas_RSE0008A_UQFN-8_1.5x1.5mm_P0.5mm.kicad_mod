@@ -5,7 +5,6 @@
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.1 0)
-		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1700858b-3e56-4602-8dbf-422ea9e3dd2a")
 		(effects
@@ -17,7 +16,6 @@
 	)
 	(property "Value" "Texas_RSE0008A_UQFN-8_1.5x1.5mm_P0.5mm"
 		(at 0 2.1 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d44f4fd1-a4fc-4636-8f34-8f1c1d29b4d8")
 		(effects
@@ -160,7 +158,6 @@
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "66f3afcf-63e3-4fc1-b55d-733c33b49c58")
 		(effects

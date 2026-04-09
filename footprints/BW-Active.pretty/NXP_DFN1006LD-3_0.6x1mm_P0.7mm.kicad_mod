@@ -5,7 +5,6 @@
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.6 0)
-		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a4fa09ec-f365-4bbe-907c-23c2666dafe0")
 		(effects
@@ -17,7 +16,6 @@
 	)
 	(property "Value" "NXP_DFN1006LD-3_0.6x1mm_P0.7mm"
 		(at 0 1.7 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8bc9bf12-1cca-4dcd-81cb-97ed93a02752")
 		(effects
@@ -118,7 +116,6 @@
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 3.2 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "88d36b20-72ed-4d8c-a086-7d3062ee8bc6")
 		(effects
